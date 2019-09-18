@@ -9,6 +9,9 @@
 <html>
 <head>
     <title>个人中心</title>
+    <h2>
+        <%=session.getAttribute("username")%>
+    </h2>
 </head>
 <body>
 

@@ -8,7 +8,10 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>个人中心</title>git
+    <title>个人中心</title>
+    <h2>
+        <%=session.getAttribute("username")%>
+    </h2>
 </head>
 <body>
 
