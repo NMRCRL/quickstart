@@ -1,5 +1,5 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="quickstart:war exploded">
+  <artifact type="exploded-war" build-on-make="true" name="quickstart:war exploded">
     <output-path>$PROJECT_DIR$/out/artifacts/quickstart_war_exploded</output-path>
     <root id="root">
       <element id="javaee-facet-resources" facet="quickstart/web/Web" />

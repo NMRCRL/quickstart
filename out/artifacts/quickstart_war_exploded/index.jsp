@@ -12,7 +12,7 @@
 </head>
 <body>
 <h2>首页</h2>
-<%--<h2>欢迎你：<%=session.getAttribute("username") %></h2>--%>
-<h2>欢迎你：<%=request.getAttribute("username") %></h2>
+<h2>欢迎你：<%=session.getAttribute("username") %></h2>
+<%--h2<h2>欢迎你：<%=request.getAttribute("username") %></h2>--%>
 </body>
 </html>
